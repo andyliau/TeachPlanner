@@ -5,6 +5,6 @@ namespace TeachPlanner.Api.Controllers;
 
 [ApiController]
 [Authorize]
-public class ApiController : ControllerBase
+public abstract class ApiController : ControllerBase
 {
 }
